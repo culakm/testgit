@@ -38,6 +38,8 @@ if (strstr($last_line, 'no changes added to commit (use "git add" and/or "git co
 	runCmd($cmd,$run_flag);
 	$cmd = "git commit -m '$commit_message'";
 	runCmd($cmd,$run_flag);
+	$cmd = "git push";
+	runCmd($cmd,$run_flag);
 	$cmd = "git checkout development";
 	runCmd($cmd,$run_flag);
 	$cmd = "git merge development $this_branch";
