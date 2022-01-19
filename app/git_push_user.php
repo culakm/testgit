@@ -48,8 +48,6 @@ if (strstr($last_line, 'no changes added to commit (use "git add" and/or "git co
 	runCmd($cmd,$run_flag);
 	$cmd = "git checkout $this_branch";
 	runCmd($cmd);
-	
-	
 }
 
 function runCmd($cmd,$run_flag = false) {
