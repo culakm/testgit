@@ -1,19 +1,18 @@
 <?php
-// Script cmd_opt_example.php
 
-
-$shortopts  = "";
-$shortopts .= "m:";
-
-
-$options = getopt($shortopts);
-var_dump($options);
-
-$last_line = system('ls', $retval);
+$cmd = 'ls aldasf';
+$last_line = system($cmd, $retval);
 
 echo "last_line\n";
 var_dump($last_line);
 
 echo "retval\n";
 var_dump($retval);
+
+
+if ($retval === 0){
+	echo "$cmd : Everithing is OK\n";		
+} else {
+	echo "$cmd : Everithing is WRONG\n";
+}
 ?>

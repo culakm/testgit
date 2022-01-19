@@ -1,3 +1,2 @@
-ja som iniciacne pako
-teraz som pako development branche
-prva naozajstna zmena ktoru chcem dat do development
+1.
+
