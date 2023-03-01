@@ -1,2 +1,3 @@
 prvy zapis v dev1
 druhy zapis c local2
+zmena v local5, bude sa bit so zmenou z local4
