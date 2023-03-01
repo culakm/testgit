@@ -1,1 +1,2 @@
 prvy zapis v dev1
+druhy zapis c local2
